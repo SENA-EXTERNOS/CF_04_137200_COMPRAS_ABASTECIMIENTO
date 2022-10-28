@@ -7,6 +7,18 @@
         span 2
       h1 Titulo de primer nivel
 
+    .row.justify-content-center.align-items-start.mt-5      
+      .col-lg-2
+          img(src='@/assets/curso/temas/tema2/img1.png')                   
+      .col-lg-10
+        p.mt-3 La gestión de proveedores consiste en realizar acciones que propenden por emprender relaciones comerciales convenientes y estratégicas a los intereses de las organizaciones, con el fin de proveer o abastecer materias primas, insumos o servicios necesarios en sus procesos, ya sean productivos o de prestación de servicios. Las organizaciones deben generar acciones que van desde la búsqueda, la clasificación, generación de comercio, evaluación de resultados y mejoramiento sobre aspectos relevantes de la misma.
+
+    separador
+
+
+
+
+
 </template>
 
 <script>
