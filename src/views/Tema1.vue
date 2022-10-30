@@ -9,7 +9,7 @@
 
     .row.mt-2.justify-content-center.mt-5
       .col-10
-        .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.coloryellow.tarjetaimgcar.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.carimg(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
           )
@@ -24,34 +24,48 @@
     
     .titulo-segundo.color-acento-contenido.mb-5
       h2 1.1  Tipo de proveedores
-
-      .row.mt-4                 
-        .col-8
+    .bg6
+      .row.mt-2.justify-content-center          
+        .col-9
           p.mt-4.text-left Los proveedores se clasifican, principalmente, teniendo en cuenta sus diferencias entre renglones de la producción, el tamaño de la organización, las necesidades, el tipo de estructura organizacional y la industria. De forma general podemos encontrar dos tipos:
 
-        .col-lg-4.mb-4
+        .col-lg-3
           figure
-            img(src='@/assets/curso/temas/tema1/img2.svg').dimensionimgtema1
+            img(src='@/assets/curso/temas/tema1/img2.svg').dimensionimgtema1  
+            
+      .tarjeta.tarjeta--blanco
+        PasosB.color-acento-contenido
+          .row(titulo="")
+            .col-md-12
+              b.mt-4 Proveedores internos
+              p.mt-4 Toda organización depende de su más grande activo, que es el recurso humano. Por más básica que sea la estructura organizacional, se establecen actividades y responsabilidades a cada miembro de la misma para tener una caracterización de procesos que sean armónicos y funcionales. Bajo este punto de vista, todo colaborador de la empresa funge de proveedor del proceso al cual reporta o al cual entrega el fruto de su trabajo.
+            .col-md-12
+              figure
+                img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+                
 
-    
-    .bg--gradientBlue.p-5
-      SlyderB(:datos="datosSlyder")
-    .row.justify-content-end.mb-5.me-3
-
-
-    .row.justify-content-around.align-items-centerrd
-          .col-9
-            .tarjeta.colorpdf.p-2.mt-2
+          .row(titulo="")
+            .col-md-12
+              b.mt-4 Proveedores externos
+              p.mt-4 Existen también los proveedores externos, que son todas aquellas organizaciones o personas que proveen u abastecen cualquier necesidad de productos, como materias primas, insumos o aquellos servicios que pueden ser personales, tales como: asesorías, auditorías, estudios específicos, actividades que se tercericen, dentro de las que se encuentran labores de oficios varios o mensajería, entre otras. También se pueden clasificar los proveedores según su necesidad y su criticidad en los procesos externos:
+            .col-md-12
+              figure
+                img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+                
+      
+    .row.justify-content-around.align-items-centerrd.mt-1
+          .col-9.p-5
+            .tarjeta.colorpdf.p-4.mt-2
               .row.justify-content-around.align-items-center
                 .col-lg-1
                   img(src="@/assets/curso/temas/tema1/img3.svg" )
-                .col-10
+                .col-11
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Descripción de Proveedores externos
-                      p.text-small Si desea profundizar sobre cada uno de los tipos de proveedores, descargue el siguiente documento.
+                      h3.mb-1.text-white Descripción de Proveedores externos
+                      p.text-small.text-white Si desea profundizar sobre cada uno de los tipos de proveedores, descargue el siguiente documento.
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1Técnicasdemodeladodelascaracterísticasdeingeniería.pdf')" target="_blank")
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 1 - Descripcion de proveedores externos.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
       
@@ -66,7 +80,7 @@
     p La identificación de fuentes de suministro y búsqueda de proveedores en el mercado es una acción que se realiza de forma cada vez más globalizada. También es más sencilo encontrar miles de posibles proveedores de cualquier tipo y en cualquier lugar del mundo.   
 
 
-    ImagenInfografica.color-acento-botones
+    ImagenInfografica.color-acento-botones.mt-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen')   
@@ -87,40 +101,40 @@
 
     .bg--img_03
       .row.justify-content-center.mb-4
-        .col-lg-4
+        .col-lg-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema1/img5.png", alt="alt").img400.m-auto
-        .col-lg-8
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario")
-            .row(titulo="ISO 9000, (2005) Sistemas de Gestión de la Calidad. Definiciones y fundamentos")
+        .col-lg-6
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta clr--gris")
+            .row(titulo="Ferias o eventos especializados")
               .col-12
-                p.mb-0 Establece un punto de partida para comprender las normas y define los términos fundamentales utilizados en la familia de normas ISO 9000, que se necesitan para evitar malentendidos en su utilización, especificando el vocabulario clave a utilizar dentro del proceso. 
-
-            .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+                p.mb-0 Estos se desarrollan precisamente para el fomento de la industria y para fortalecer las actividades comerciales con posibles compradores nacionales e internacionales.
+            .row(titulo="Asociaciones gremiales")
               .col-12
-                p.mb-0 Es la norma que establece los criterios que permiten lograr eficazmente los requisitos del cliente y los reglamentarios, para conseguir la satisfacción del cliente. Incluye los principios de motivación y participación activa de la dirección como el ciclo de mejora continua. Es el único estándar que puede certificarse. Esta norma exige la elaboración de la documentación que debe conservar el sistema de gestión de calidad, sus políticas y procedimientos.
-
-            .row(titulo="ISO 9004. Sistemas de Gestión de la Calidad. Directrices para la mejora del desempeño")
+                p.mb-0 Una de las ventajas de las asociaciones es el intercambio de información útil para todas las empresas vinculadas, la cual facilita tener acceso a citas con clientes o proveedores, al igual  que obtener descuentos por volumen.
+            .row(titulo="Cámaras de comercio")
               .col-12
-                p.mb-0 Sistemas de Gestión de la Calidad. Directrices para la mejora del desempeño: esta norma proporciona ayuda para la gestión del éxito sostenido del sistema de gestión de la calidad para beneficiar a todas las partes interesadas a través de las mejoras y el mantenimiento de la satisfacción del cliente. La Norma ISO 9004 abarca tanto la eficiencia como la eficacia del sistema de gestión de la calidad.  Se puede tomar como una ampliación de la norma anterior y no es certificable.
-
-            .row(titulo="ISO 19011. Directrices para la auditoría ambiental y de la calidad")
+                p.mb-0 Promueven la integración de todas las industrias representadas en cada región del país, realizando la trazabilidad del crecimiento económico de sus afiliados, para contar con datos reales que ayudan a contribuir a la estadística de la ‘industria’ en el país.
+            .row(titulo="Medios de comunicación tradicionales y digitales")
               .col-12
-                p.mb-0 Proporciona directrices para verificar la capacidad del sistema para conseguir objetivos de la calidad definidos. Esta norma se puede utilizar internamente para auditar a los proveedores de la organización.
+                p.mb-0 Los medios de comunicación tradicionales son una fuente valiosa de información. Prensa, radio, televisión y medios digitales, facilitan el acceso a instrumentos que hacen uso de las nuevas tecnologías para realizar la actividad de informar, como son las redes sociales y motores de búsqueda en internet.
 
+            .row(titulo="Revistas y publicaciones especializadas, tradicionales y digitales")
+              .col-12
+                p.mb-0 Son medios de comunicación más especializado que generan valor al sector al cual pertenece la empresa.  Estos se encuentran hoy en día principalmente en internet, y permiten tener acceso a información de primera mano en cuanto a avances, tecnologías, y artículos, que son de interés misional.
 
       Separador  
 
     #t_1_3
+    .bg1
+      .titulo-segundo.color-acento-contenido.mb-5        
+        h2 1.3 Verificación de requisitos
 
-    .titulo-segundo.color-acento-contenido.mb-5        
-      h2 1.3 Verificación de requisitos
-
-    .row.justify-content-center.align-items-start.mt-5      
-        .col-lg-2
-            img(src='@/assets/curso/temas/tema1/img6.svg')                   
-        .col-lg-10
-          p.mt-3 Para una correcta gestión de proveedores por parte del departamento de compras, es necesario saber lo que se espera de ellos y hacerles saber cuáles son los estándares de satisfacción que posee la empresa, bajo las políticas de compras y  abastecimiento, con el fin de que éstas sean satisfechas de la manera más completa posible, y exista un entendimiento entre las partes. Por otro lado, es importante crear un sistema de monitoreo que permita clasificar los proveedores por sus características. Esta tipificación se puede lograr a través de auditorías a los procesos que generen un criterio objetivo de calificación y una tabla de calificación subjetiva que permita parametrizar el cumplimiento de los requerimientos acordados.
+      .row.justify-content-center.align-items-start.mt-5      
+          .col-lg-2
+              img(src='@/assets/curso/temas/tema1/img6.svg')                   
+          .col-lg-10
+            p.mt-3 Para una correcta gestión de proveedores por parte del departamento de compras, es necesario saber lo que se espera de ellos y hacerles saber cuáles son los estándares de satisfacción que posee la empresa, bajo las políticas de compras y  abastecimiento, con el fin de que éstas sean satisfechas de la manera más completa posible, y exista un entendimiento entre las partes. Por otro lado, es importante crear un sistema de monitoreo que permita clasificar los proveedores por sus características. Esta tipificación se puede lograr a través de auditorías a los procesos que generen un criterio objetivo de calificación y una tabla de calificación subjetiva que permita parametrizar el cumplimiento de los requerimientos acordados.
 
     Separador
 
@@ -203,7 +217,7 @@
 
     p Una herramienta usada en este proceso es la ficha de evaluación:
 
-    .titulo-sexto.color-negrotitulotabla
+    .titulo-sexto.color-negrotitulotabla.mt-5
             p  #[b Tabla 2.] 
               | Ficha de evaluación
 
@@ -264,7 +278,7 @@
                   td
                   td
 
-    .row.mt-2.justify-content-center.mt-5
+    .row.mt-2.justify-content-center.mt-5.tarjeta--azulclaro
       .col-8
         h5.mt-5 Ejemplo
         p Se presenta una evaluación de desempeño a los proveedores de ferreterías que suministran insumos para una empresa de construcción y los resultados fueron los siguientes:
@@ -276,7 +290,7 @@
 
         .tabla-a
           table.tabladimension1
-            caption      
+            caption Fuente: elaboración propia del experto     
             thead
               tr
                 th Proveedor
@@ -376,14 +390,14 @@
     .titulo-segundo.color-acento-contenido.mb-5        
       h2 1.4 Verificación de requisitos
 
-
-    .row.justify-content-center.align-items-start.mt-5      
-        .col-lg-2
-            img(src='@/assets/curso/temas/tema1/img8.png')                   
-        .col-lg-10
-          p.mt-3 El informe de selección de proveedores es un documento que permite conocer bajo qué criterios se evaluaron y se clasificaron los proveedores que previamente se preseleccionaron, y que fueron sometidos a una evaluación objetiva, permitiendo saber cuáles son las características de cada uno de ellos y realizar acuerdos comerciales como: contratos de suministros o contratos de prestación de servicios, teniendo en cuenta los mejores puntajes en cada aspecto.
-          p.mt-2 Una vez realizado el ejercicio y al haber obtenido los resultados, estos deben ser entregados a las áreas interesadas en la evaluación,  y, a la gerencia, para posteriormente ser almacenados como documentación para el área de inventarios y de calidad en las organizaciones.
-
+    .bg2
+      .row.justify-content-center.align-items-start.mt-5      
+          .col-lg-2
+              img(src='@/assets/curso/temas/tema1/img8.png')                   
+          .col-lg-10
+            p.mt-3 El informe de selección de proveedores es un documento que permite conocer bajo qué criterios se evaluaron y se clasificaron los proveedores que previamente se preseleccionaron, y que fueron sometidos a una evaluación objetiva, permitiendo saber cuáles son las características de cada uno de ellos y realizar acuerdos comerciales como: contratos de suministros o contratos de prestación de servicios, teniendo en cuenta los mejores puntajes en cada aspecto.
+            p.mt-2 Una vez realizado el ejercicio y al haber obtenido los resultados, estos deben ser entregados a las áreas interesadas en la evaluación,  y, a la gerencia, para posteriormente ser almacenados como documentación para el área de inventarios y de calidad en las organizaciones.
+          
 
 
 
