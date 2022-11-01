@@ -53,18 +53,18 @@
                 img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
                 
       
-    .row.justify-content-around.align-items-centerrd.mt-1
-          .col-9.p-5
-            .tarjeta.colorpdf.p-4.mt-2
+    .row.justify-content-around.align-items-centerrd.mt-5
+          .col-10
+            .tarjeta.bg8
               .row.justify-content-around.align-items-center
-                .col-lg-1
-                  img(src="@/assets/curso/temas/tema1/img3.svg" )
+                .col-lg-1.p-4
+                  img(src="@/assets/curso/temas/tema1/img3.svg")
                 .col-11
                   .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
+                    .col.mb-5.mb-sm-0
                       h3.mb-1.text-white Descripción de Proveedores externos
                       p.text-small.text-white Si desea profundizar sobre cada uno de los tipos de proveedores, descargue el siguiente documento.
-                    .col-sm-auto
+                    .col-lg-3
                       a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 1 - Descripcion de proveedores externos.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
@@ -302,7 +302,7 @@
                 th E 15%
                 th Total 100%
 
-            tbody
+            tbody.colorwhite
               tr
                 td Ferretería A
                 td 20 Abril 2022
@@ -388,7 +388,7 @@
     #t_1_4
 
     .titulo-segundo.color-acento-contenido.mb-5        
-      h2 1.4 Verificación de requisitos
+      h2 1.4 Informe de selección de proveedores
 
     .bg2
       .row.justify-content-center.align-items-start.mt-5      

@@ -27,7 +27,8 @@
           .row(titulo="Información relevante")
             .col-12
               p Antes de tratar de entrar en cualquier negociación, se debe tener mucha información que permita dimensionar quién es la contraparte                  
-                i (Benchmarking de proveedores), 
+                i #[b (Benchmarking]
+                |  de proveedores), 
                 | en donde se conozcan aspectos como: condiciones comerciales que manejan, portafolio de productos o servicios, precios, servicios posventa, empresas a las que sirven de proveedores, etc.
           
           .row(titulo="Preparar la negociación")
@@ -82,14 +83,14 @@
 
     .row.justify-content-around.align-items-centerrd.mt-5
           .col-10
-            .tarjeta.colorpdf.p-2.mt-2
+            .tarjeta.bg8.mt-2.p-3
               .row.justify-content-around.align-items-center
                 .col-lg-1.mb-3
                   img(src="@/assets/curso/temas/tema2/img5.svg" )
                 .col-11
                   .row.justify-content-between.align-items-center
-                    .col.mb-4.mb-sm-0.p-4
-                      h3.mb-1.text-white Negociación con proveedores
+                    .col.mb-4.mb-sm-0
+                      h4.mb-1.text-white Negociación con proveedores
                       p.text-small.text-white Si desea profundizar más en el tema Etapas en la negociación con proveedores, descargue el siguiente documento.
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 2 - Etapas en la negociacion con proveedores.pdf')" target="_blank")
@@ -175,13 +176,13 @@
 
     .row.justify-content-around.align-items-centerrd.mt-5
           .col-10
-            .tarjeta.colorpdf.mt-2
+            .tarjeta.bg8.mt-2
               .row.justify-content-around.align-items-center
                 .col-lg-1
                   img(src="@/assets/curso/temas/tema2/img10.svg" )
                 .col-10
                   .row.justify-content-between.align-items-center
-                    .col.mb-3.p-4
+                    .col.p-4
                       h3.mb-1.text-left.text-white Ciclo de gestión de pedidos
                       p.text-small.text-white Si desea profundizar más en el tema Gestión de pedidos, descargue el siguiente documento.
                     .col-sm-auto
