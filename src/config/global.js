@@ -106,6 +106,12 @@ export default {
             titulo: 'Seguimiento de proveedores y pedidos',
             hash: 't_2_4',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: ' Mejores prácticas con proveedores',
+            hash: 't_2_5',
+          },
         ],
       },
       {
@@ -182,7 +188,7 @@ export default {
       tema: 'Indicadores de calidad y evaluación de proveedores ',
       referencia: 'Carmen Arenal Laza. Gestión de proveedores. MF1004.',
       tipo: 'Libro',
-      descarga:
+      link:
         'https://books.google.com.co/books?id=v01mEAAAQBAJ&pg=PA151&dq=INDICADORES+DE+DESEMPE%C3%91O+PROVEEDORES&hl=es&sa=X&ved=2ahUKEwj71Y3U6eX5AhVuZTABHQ5tCtQQ6AF6BAgHEAI#v=onepage&q=INDICADORES%20DE%20DESEMPE%C3%91O%20PROVEEDORES&f=false ',
     },
   ],
@@ -200,7 +206,7 @@ export default {
     {
       termino: 'EOQ (cantidad económica del pedido)',
       significado:
-        'la cantidad económica de pedido o EOQ por las siglas de su nombre en inglés (Economic Order Quantity) es un modelo matemático que sirve para calcular el tamaño óptimo de cada pedido de materia prima. Esto, buscando la mayor eficiencia. (Westreicher, 2022)',
+        'la cantidad económica de pedido o EOQ por las siglas de su nombre en inglés <em>(Economic Order Quantity)<em> es un modelo matemático que sirve para calcular el tamaño óptimo de cada pedido de materia prima. Esto, buscando la mayor eficiencia. (Westreicher, 2022)',
     },
     {
       termino: 'Gestión de inventarios',
@@ -218,14 +224,14 @@ export default {
         'el inventario inicial es aquel que se registra al comienzo de un ejercicio contable, previo cálculo de variaciones de este al final del ejercicio anterior. (Llamas, 2020)',
     },
     {
-      termino: 'Just in time',
+      termino: '<em>Just in time<em>',
       significado:
         'es la filosofía de dar lo que el cliente pide, la cantidad que pide, a la fecha acordada en el sitio acordado, de acuerdo al método Toyota.',
     },
     {
       termino: 'KPIs',
       significado:
-        'la cantidad económica de pedido o EOQ por las siglas de su nombre en inglés (Economic Order Quantity) es un modelo matemático que sirve para calcular el tamaño óptimo de cada pedido de materia prima. Esto, buscando la mayor eficiencia. (Westreicher, 2022)',
+        'los KPI, abreviatura en inglés de Key Performance Indicator, son indicadores de rendimiento que utilizan las organizaciones para medir el desempeño en las áreas productivas. (Orellana Nirian, 2020)',
     },
     {
       termino: 'Lote',
@@ -280,71 +286,75 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Caballero Ferrari, F. J. (2015) Materia prima. Economipedia',
+      referencia:
+        'Caballero Ferrari, F. J. (2015) <em>Materia prima<em>. Economipedia',
       link: 'https://economipedia.com/definiciones/materia-prima.html',
     },
     {
-      referencia: 'Llamas, J. (2020) Inventario final. Economipedia.',
+      referencia: 'Llamas, J. (2020) <em>Inventario final<em>. Economipedia.',
       link: 'https://economipedia.com/definiciones/inventario-final.html',
     },
     {
-      referencia: 'Llamas, J. (2020) Inventario inicial. Economipedia.',
+      referencia: 'Llamas, J. (2020) <em>Inventario inicial<em>. Economipedia.',
       link: 'https://economipedia.com/definiciones/inventario-inicial.html',
     },
     {
       referencia:
-        'Marco Sanjuán, F. J. (2017) Métodos de valoración de inventarios. Economipedia',
+        'Marco Sanjuán, F. J. (2017) <em>Métodos de valoración de inventarios<em>. Economipedia',
       link:
         'https://economipedia.com/definiciones/metodos-valoracion-inventarios.html',
     },
     {
       referencia:
-        'Orellana Nirian, P. KPI (Key Performance Indicator). Economipedia.',
+        'Orellana Nirian, P. KPI <em>(Key Performance Indicator)<em>. Economipedia.',
       link:
         'https://economipedia.com/definiciones/empresas/kpi-key-performance-indicator.html',
     },
     {
-      referencia: 'Peiró, R. (2018) Propuesta de valor. Economipedia.',
+      referencia: 'Peiró, R. (2018) <em>Propuesta de valor. Economipedia.<em>',
       link: 'https://economipedia.com/definiciones/propuesta-de-valor.html',
     },
     {
-      referencia: 'Roldan, P. N. (2017) Cadena de suministro. Economipedia.',
+      referencia:
+        'Roldan, P. N. (2017) <em>Cadena de suministro. Economipedia.<em>',
       link: 'https://economipedia.com/definiciones/cadena-de-suministro.html',
     },
     {
-      referencia: 'Rus Arias. E. (2020) Orden de compra.  Economipedia.',
+      referencia:
+        'Rus Arias. E. (2020) <em>Orden de compra.<em>  Economipedia.',
       link: 'https://economipedia.com/definiciones/orden-de-compra.html',
     },
     {
       referencia:
-        'Sánchez Galán, J. (2015) Canales de distribución. Economipedia.',
+        'Sánchez Galán, J. (2015) <em>Canales de distribución.<em> Economipedia.',
       link:
         'https://economipedia.com/definiciones/canales-de-distribucion.html',
     },
     {
-      referencia: 'Sánchez Galán, J. (2020) Lote. Economipedia.',
+      referencia: 'Sánchez Galán, J. (2020) <em>Lote<em>. Economipedia.',
       link: 'https://economipedia.com/definiciones/lote.html',
     },
     {
       referencia:
-        'Westreicher, G. (2019) Gestión de inventaros. Economipedia. ',
+        'Westreicher, G. (2019) <em>Gestión de inventaros.<em> Economipedia. ',
       link: 'https://economipedia.com/definiciones/gestion-de-inventarios.html',
     },
     {
-      referencia: 'Westreicher, G. (2020) Mercancía. Economipedia.',
+      referencia: 'Westreicher, G. (2020) <em>Mercancía.<em> Economipedia.',
       link: 'https://economipedia.com/definiciones/mercancia.html',
     },
     {
-      referencia: 'Westreicher, G. (2020) Suministro. Economipedia.',
+      referencia: 'Westreicher, G. (2020) <em>Suministro.<em> Economipedia.',
       link: 'https://economipedia.com/definiciones/suministro.html',
     },
     {
-      referencia: 'Westreicher, G. (2021) Sistema de inventario. Economipedia.',
+      referencia:
+        'Westreicher, G. (2021) <em>Sistema de inventario.<em> Economipedia.',
       link: 'https://economipedia.com/definiciones/sistema-de-inventarios.html',
     },
     {
       referencia:
-        'Westreicher, G. (2022) Cantidad económica de pedido. Economipedia.',
+        'Westreicher, G. (2022) <em>Cantidad económica de pedido.<em> Economipedia.',
       link:
         'https://economipedia.com/definiciones/cantidad-economica-de-pedido-eoq.html',
     },

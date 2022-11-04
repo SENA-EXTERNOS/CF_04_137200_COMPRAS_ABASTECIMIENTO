@@ -130,7 +130,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img8.svg', alt='').img400.m-auto
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0
-            h4.txt--purpura Estrategia ‘ganar-ganar’
+            h4.txt--purpura Estrategia ‘ganar-perder’
             p Esta estrategia busca que ambas partes obtengan beneficios en el proceso de negociación, pero, tratando que la contraparte gane de la misma manera. De esta forma se genera un ambiente de confianza que permite ceder en aspectos poco relevantes que ayuden a evitar controversia.
     
     separador
@@ -199,7 +199,7 @@
               p Con el intercambio comercial y el avance tecnológico en las organizaciones, cada día se hacen grandes esfuerzos para optimizar los procesos y transformarlos de manera eficiente, para que requieran menos intervención de personas, menos reprocesos, menos errores, más agilidad y más economía entre las partes.  De ahí se genera un nuevo concepto, el de ‘gestión automatizada de pedidos’, GAP, que consiste en la automatización de los procesos de entrega, despacho, descuento de inventario, facturación, seguimiento y demás aspectos conectados al intercambio comercial con cualquier tipo de cliente.
           .col-lg-12
             p.mt-3.edittexttm  Uno de los beneficios de los sistemas GAP es la inmediatez de la información y la precisión de ésta, permitiendo en tiempo real conocer la capacidad que se tiene para cumplir con un requerimiento de un cliente, y, de no ser así, en qué plazo se podría hacer. También se eliminan aspectos indeseables en la gestión comercial con los proveedores, como son el 
-              b lead time gap 
+              b #[i lead time gap] 
               | (tiempos de entrega por fuera de términos pactados) y los cuellos de botella en producción (retrasos por falta de materias primas o capacidad instalada en el proceso productivo).
                    
         
@@ -209,7 +209,7 @@
 
     separador 
 
-    h4.mt-3 Estrategias de negociación con proveedores
+    h4.mt-3 Indicadores de evaluación de proveedores
 
     p.mt-3 Los indicadores de calidad son herramientas estadísticas basadas en información objetiva que se utilizan como criterio de juzgamiento y evaluación del desempeño de una organización en cualquier aspecto en este caso en evaluación de proveedores.
     p.mt-2 Por la naturaleza de los indicadores que se utilizan en logística y gestión de inventarios, estos son llamados KPIs, los criterios que se manejan son cuantitativos, y ayudan a medir elementos como: rapidez, eficacia, calidad de proveedores, administración de gastos, optimización de recursos, errores en envíos como tiempos de entrega, devoluciones, entre otros.
