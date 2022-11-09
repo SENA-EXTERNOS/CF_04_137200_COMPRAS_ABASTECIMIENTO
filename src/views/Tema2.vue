@@ -131,7 +131,7 @@
               img(src='@/assets/curso/temas/tema2/img8.svg', alt='').img400.m-auto
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0
             h4.txt--purpura Estrategia ‘ganar-perder’
-            p Esta estrategia busca que ambas partes obtengan beneficios en el proceso de negociación, pero, tratando que la contraparte gane de la misma manera. De esta forma se genera un ambiente de confianza que permite ceder en aspectos poco relevantes que ayuden a evitar controversia.
+            p Solo se busca el máximo beneficio a costa del oponente; en esta estrategia prima el interés particular de una de las partes y no interesan las relaciones a futuro.  Por ello las negociaciones suelen ser tensas y desgastantes, convirtiéndose en una estrategia situacional, en donde, se suelen dar desacuerdos o acuerdos no orgánicos  que generan controversias comerciales, que pueden dirimirse en cortes por aspectos legales en los compromisos contractuales, lo cual se considera una desventaja de la misma.
     
     separador
 
