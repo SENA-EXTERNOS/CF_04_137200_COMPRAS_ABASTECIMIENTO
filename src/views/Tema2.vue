@@ -146,7 +146,7 @@
             p.mt-3 En toda gestión de proveedores, como actividad responsable está la verificación y seguimiento que se debe hacer a los mismos de manera constante, con el fin de cotejar el cumplimiento de requisitos previamente acordados.
             p.mt-3 Los principales beneficios del seguimiento de los pedidos son:
 
-            ul.lista-ul--
+            ul.lista-ul
               li 
                 i.fas.fa-angle-right.yelllow
                 | Asegurar que estén alineados a los requerimientos.
@@ -156,7 +156,7 @@
                 | Mantener una base de datos de proveedores constantemente evaluada de manera objetiva.
               li 
                 i.fas.fa-angle-right.yelllow
-                |  Realizar constante retroalimentación para generar oportunidades de mejora que nutran la relación, cliente- proveedor
+                |  Realizar constante retroalimentación para generar oportunidades de mejora que nutran la relación, cliente- proveedor.
               li 
                 i.fas.fa-angle-right.yelllow
                 |  Gestionar la eficiencia y eficacia del proveedor.
@@ -167,6 +167,8 @@
 
     Separador
     h4.mt-3 Ciclo de gestión de pedidos
+
+    p.mb-5 En el seguimiento de proveedores, además de evaluarlos de acuerdo a indicadores de gestión de sus servicios, se debe realizar seguimiento a los pedidos realizados. Para esto, es vital conocer cuál es el ciclo de la gestión de los pedidos.
 
     .row.mt-4
           figure
@@ -198,9 +200,9 @@
             .bloque-texto-b__texto
               p Con el intercambio comercial y el avance tecnológico en las organizaciones, cada día se hacen grandes esfuerzos para optimizar los procesos y transformarlos de manera eficiente, para que requieran menos intervención de personas, menos reprocesos, menos errores, más agilidad y más economía entre las partes.  De ahí se genera un nuevo concepto, el de ‘gestión automatizada de pedidos’, GAP, que consiste en la automatización de los procesos de entrega, despacho, descuento de inventario, facturación, seguimiento y demás aspectos conectados al intercambio comercial con cualquier tipo de cliente.
           .col-lg-12
-            p.mt-3.edittexttm  Uno de los beneficios de los sistemas GAP es la inmediatez de la información y la precisión de ésta, permitiendo en tiempo real conocer la capacidad que se tiene para cumplir con un requerimiento de un cliente, y, de no ser así, en qué plazo se podría hacer. También se eliminan aspectos indeseables en la gestión comercial con los proveedores, como son el 
+            p.mt-3.edittexttm  Uno de los beneficios de los sistemas GAP es la inmediatez de la información y la precisión de esta, permitiendo en tiempo real conocer la capacidad que se tiene para cumplir con un requerimiento de un cliente, y, de no ser así, en qué plazo se podría hacer. También se eliminan aspectos indeseables en la gestión comercial con los proveedores, como son el 
               b #[i lead time gap] 
-              | (tiempos de entrega por fuera de términos pactados) y los cuellos de botella en producción (retrasos por falta de materias primas o capacidad instalada en el proceso productivo).
+              |  (tiempos de entrega por fuera de términos pactados) y los cuellos de botella en producción (retrasos por falta de materias primas o capacidad instalada en el proceso productivo).
                    
         
         .col-lg-5
@@ -244,7 +246,7 @@
 
     .row.justify-content-center.align-items-start.mt-5.tarjeta--azul    
       .col-lg-9
-        p.mt-5.text-small Para la gestión de proveedores se recomiendan diversas prácticas que son sanas y constructivas para una relación longeva y que permita la evolución de ambas empresas, al igual que la materialización de relaciones comerciales mutuamente beneficiosas.
+        p.mt-5 Para la gestión de proveedores se recomiendan diversas prácticas que son sanas y constructivas para una relación longeva y que permita la evolución de ambas empresas, al igual que la materialización de relaciones comerciales mutuamente beneficiosas.
 
       .col-lg-9.mt-4
         .tarjeta.tarjeta--blue.p-4
