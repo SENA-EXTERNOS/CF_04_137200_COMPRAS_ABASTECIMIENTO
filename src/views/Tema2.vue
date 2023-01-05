@@ -7,33 +7,29 @@
         span 2
       h1 Gestión de proveedores
 
-    .row.justify-content-center.align-items-start.mt-5      
+    .row.justify-content-center.align-items-start.my-5      
       .col-lg-2
           img(src='@/assets/curso/temas/tema2/img1.png')                   
       .col-lg-10
-        p.mt-3 La gestión de proveedores consiste en realizar acciones que propenden por emprender relaciones comerciales convenientes y estratégicas a los intereses de las organizaciones, con el fin de proveer o abastecer materias primas, insumos o servicios necesarios en sus procesos, ya sean productivos o de prestación de servicios. Las organizaciones deben generar acciones que van desde la búsqueda, la clasificación, generación de comercio, evaluación de resultados y mejoramiento sobre aspectos relevantes de la misma.
+        p.mt-3 La gestión de proveedores consiste en realizar acciones que propenden por emprender relaciones comerciales convenientes y estratégicas para las organizaciones, con el fin de proveer o abastecer materias primas, insumos o servicios necesarios en sus procesos, ya sean productivos o de prestación de servicios. Las organizaciones deben generar acciones que van desde la búsqueda, pasando por  la clasificación, generación de comercio, evaluación de resultados , hasta llegar al mejoramiento.
 
-    separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido.mt-2
-      h2 2.1   Negociación con proveedores
+    h3 Negociación con proveedores
 
-    P La gestión de los proveedores se desprende de la necesidad de negociar y establecer términos comunes para la relación comercial entre las empresas. En estas negociaciones se deben tener en cuenta precios de intercambio, valores agregados dentro de éstas, garantías, servicio posventa, condiciones de pago, entre muchos otros aspectos.
-    P.mt-2 Existen factores clave a tener en cuenta antes de sentarse a concertar con los posibles proveedores:
+    p.mb-3 La gestión de los proveedores se desprende de la necesidad de negociar y establecer términos comunes para la relación comercial entre las empresas. En estas negociaciones se debe tener en cuenta precios de intercambio, valores agregados dentro de estas, garantías, servicio postventa, condiciones de pago, entre muchos otros aspectos.
+    p.mb-5 Existen factores clave a tener en cuenta antes de sentarse a concertar con los posibles proveedores:
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.my-5
       .col-lg-6        
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta clr--gris")
           .row(titulo="Información relevante")
             .col-12
-              p Antes de tratar de entrar en cualquier negociación, se debe tener mucha información que permita dimensionar quién es la contraparte                  
-                i #[b (Benchmarking]
-                |  de proveedores), 
-                | en donde se conozcan aspectos como: condiciones comerciales que manejan, portafolio de productos o servicios, precios, servicios posventa, empresas a las que sirven de proveedores, etc.
+              p Antes de tratar de entrar en cualquier negociación, se debe tener mucha información que permita dimensionar quién es la contraparte (<em>Benchmarking</em> de proveedores), en donde se conozcan aspectos como: condiciones comerciales que manejan, portafolio de productos o servicios, precios, servicios postventa, empresas a las que sirven de proveedores, etc.
           
           .row(titulo="Preparar la negociación")
             .col-12
-              p Además de la información con la que se cuenta de la contraparte, también se deben definir claramente el objetivo que se quiere alcanzar en la negociación, teniendo presentes sus límites y los aspectos se pueden asumir o ceder.
+              p Además de la información de la contraparte, con la que se cuenta, también se debe definir claramente el objetivo que se quiere alcanzar en la negociación, teniendo presente sus límites y los aspectos que se pueden asumir o ceder.
+
           .row(titulo="Brindar información")
             .col-12
               p Así como se requiere información de la contraparte, también se debe brindar de la propia organización, con datos que puedan ser relevantes para un posible proveedor y útiles para su propio análisis.
@@ -70,18 +66,15 @@
               b  Condiciones de pago: 
               | este es un aspecto que le interesa mucho a la contraparte y que podría servir de moneda de cambio si se establecen plazos de pago convenientes para ellos, se podrían obtener muchos de los objetivos de la negociación. Y será la condición MÍNIMA de plazos de pago con los clientes de la empresa.
             
-      separador
+    
+    h3 Etapas en el proceso de negociación
 
-    #t_2_2.titulo-segundo.color-acento-contenido.mt-2
-      h2 2.2  Etapas en el proceso de negociación
-
-    p Una vez establecido un contacto con los posibles proveedores y haber asegurado la intención de una posible negociación, se deben tener en cuenta cinco etapas para dicho proceso: 
-
+    p Una vez establecido un contacto con los posibles proveedores y haber asegurado la intención de una negociación, se deben tener en cuenta cinco etapas para dicho proceso:
     .col-lg-12.mt-5
       figure
           img(src="@/assets/curso/temas/tema2/img4.png", alt="alt")
 
-    .row.justify-content-around.align-items-centerrd.mt-5
+    .row.justify-content-around.align-items-centerrd.my-5
           .col-10
             .tarjeta.bg8.mt-2.p-3
               .row.justify-content-around.align-items-center
@@ -97,20 +90,16 @@
                         span Descargar
                         i.fas.fa-file-download
 
-    separador
-
-    #t_2_3
 
     .bg4
-      .titulo-segundo.color-acento-contenido.mt-2
-        h2 2.3  Estrategias de negociación con proveedores
+      h3 Estrategias de negociación con proveedores
     
-      .row.justify-content-center.align-items-start.mt-5      
+      .row.justify-content-center.align-items-start.my-5      
         .col-lg-4
             img(src='@/assets/curso/temas/tema2/img6.svg') 
                           
         .col-lg-8
-          p Todo proceso de negociación con proveedores debe ser minuciosamente preparado teniendo en cuenta la información recolectada del posible proveedor o proveedores. Ésta debe ser corroborada con diferentes fuentes, incluyendo clientes que ya posean. Esto es importante para que los resultados planeados sean los esperados y se pueda avanzar en las diferentes acciones de relacionamiento con el nuevo proveedor.  
+          p Todo proceso de negociación con proveedores debe ser minuciosamente preparado teniendo en cuenta la información recolectada del posible proveedor o proveedores. Esta debe ser corroborada con diferentes fuentes, incluyendo clientes que ya posean. Esto es importante para que los resultados planeados sean los esperados y se pueda avanzar en las diferentes acciones de relacionamiento con el nuevo proveedor.    
           p.mt-2 Para dicho fin se plantean dos estrategias:
 
     TabsC.color-acento-contenido.mb-5
@@ -133,14 +122,10 @@
             h4.txt--purpura Estrategia ‘ganar-perder’
             p Solo se busca el máximo beneficio a costa del oponente; en esta estrategia prima el interés particular de una de las partes y no interesan las relaciones a futuro.  Por ello las negociaciones suelen ser tensas y desgastantes, convirtiéndose en una estrategia situacional, en donde, se suelen dar desacuerdos o acuerdos no orgánicos  que generan controversias comerciales, que pueden dirimirse en cortes por aspectos legales en los compromisos contractuales, lo cual se considera una desventaja de la misma.
     
-    separador
 
-    #t_2_4
+    h3 Seguimiento de proveedores y pedidos
 
-    .titulo-segundo.color-acento-contenido.mt-2
-      h2 2.4  Seguimiento de proveedores y pedidos
-
-    .bg3
+    .bg3.mb-5
       .row.mt-4                 
           .col-9
             p.mt-3 En toda gestión de proveedores, como actividad responsable está la verificación y seguimiento que se debe hacer a los mismos de manera constante, con el fin de cotejar el cumplimiento de requisitos previamente acordados.
@@ -165,8 +150,8 @@
             figure
               img(src='@/assets/curso/temas/tema2/img9.png' width='400px' height='213px' )
 
-    Separador
-    h4.mt-3 Ciclo de gestión de pedidos
+
+    h3 Ciclo de gestión de pedidos
 
     p.mb-5 En el seguimiento de proveedores, además de evaluarlos de acuerdo a indicadores de gestión de sus servicios, se debe realizar seguimiento a los pedidos realizados. Para esto, es vital conocer cuál es el ciclo de la gestión de los pedidos.
 
@@ -176,7 +161,7 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption   VIDEO
 
-    .row.justify-content-around.align-items-centerrd.mt-5
+    .row.justify-content-around.align-items-centerrd.my-5
           .col-10
             .tarjeta.bg8.mt-2
               .row.justify-content-around.align-items-center
@@ -192,29 +177,25 @@
                         span Descargar
                         i.fas.fa-file-download
 
-    h4.mt-5 Gestión automatizada de pedidos GAP
+    h3 Gestión automatizada de pedidos GAP
 
-    .row.mt-4                 
+    .row.mt-4.mb-5               
         .col-lg-7
           .bloque-texto-b.color-cajon.p-3
             .bloque-texto-b__texto
-              p Con el intercambio comercial y el avance tecnológico en las organizaciones, cada día se hacen grandes esfuerzos para optimizar los procesos y transformarlos de manera eficiente, para que requieran menos intervención de personas, menos reprocesos, menos errores, más agilidad y más economía entre las partes.  De ahí se genera un nuevo concepto, el de ‘gestión automatizada de pedidos’, GAP, que consiste en la automatización de los procesos de entrega, despacho, descuento de inventario, facturación, seguimiento y demás aspectos conectados al intercambio comercial con cualquier tipo de cliente.
+              p Con el intercambio comercial y el avance tecnológico en las organizaciones, cada día se hacen grandes esfuerzos para optimizar los procesos y transformarlos de manera eficiente, con el fin de requieran menos intervención de personas, menos reprocesos, menos errores, más agilidad y más economía entre las partes.  De ahí se genera un nuevo concepto ‘gestión automatizada de pedidos’, GAP, que consiste en la automatización de los procesos de entrega, despacho, descuento de inventario, facturación, seguimiento y demás aspectos conectados al intercambio comercial con cualquier tipo de cliente. 
           .col-lg-12
-            p.mt-3.edittexttm  Uno de los beneficios de los sistemas GAP es la inmediatez de la información y la precisión de esta, permitiendo en tiempo real conocer la capacidad que se tiene para cumplir con un requerimiento de un cliente, y, de no ser así, en qué plazo se podría hacer. También se eliminan aspectos indeseables en la gestión comercial con los proveedores, como son el 
-              b #[i lead time gap] 
-              |  (tiempos de entrega por fuera de términos pactados) y los cuellos de botella en producción (retrasos por falta de materias primas o capacidad instalada en el proceso productivo).
+            p.mt-3.edittexttm  Uno de los beneficios de los sistemas GAP, es la inmediatez de la información y la precisión de ésta, permitiendo en tiempo real conocer la capacidad que se tiene para cumplir con un requerimiento de un cliente o realizar sus proyecciones. También se eliminan aspectos indeseables en la gestión comercial con los proveedores, como son el <em>lead time gap</em> (tiempos de entrega por fuera de términos pactados) y los cuellos de botella en producción (retrasos por falta de materias primas o capacidad instalada en el proceso productivo).
                    
         
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema2/img11.png' )
 
-    separador 
+    h3 Indicadores de evaluación de proveedores
 
-    h4.mt-3 Indicadores de evaluación de proveedores
-
-    p.mt-3 Los indicadores de calidad son herramientas estadísticas basadas en información objetiva que se utilizan como criterio de juzgamiento y evaluación del desempeño de una organización en cualquier aspecto en este caso en evaluación de proveedores.
-    p.mt-2 Por la naturaleza de los indicadores que se utilizan en logística y gestión de inventarios, estos son llamados KPIs, los criterios que se manejan son cuantitativos, y ayudan a medir elementos como: rapidez, eficacia, calidad de proveedores, administración de gastos, optimización de recursos, errores en envíos como tiempos de entrega, devoluciones, entre otros.
+    p Los indicadores de calidad son herramientas estadísticas basadas en información objetiva que se utilizan como criterio de juzgamiento y evaluación del desempeño de una organización en cualquier aspecto, en este caso en evaluación de proveedores.
+    p.mb-5 Por la naturaleza de los indicadores que se utilizan en logística y gestión de inventarios, estos son llamados, <em>KPI</em>  que significa, <em>Key Performance Indicator</em>, es decir, Indicador Clave de Desempeño. Estos son los indicadores o valores cuantitativos que se pueden medir, comparar y monitorear, con el fin de exponer el desempeño de los procesos y trabajar en las estrategias de un negocio.
 
     .bg--img_03
       .row.justify-content-center.mb-4
@@ -237,16 +218,12 @@
                 p.mb-0 Este indicador mide principalmente el cumplimiento de los compromisos pactados con los proveedores sin esperar eficiencia o valores agregados.
 
 
-      separador
 
-    #t_2_5
-
-    .titulo-segundo.color-acento-contenido.mt-2
-      h2 2.5  Mejores prácticas con proveedores
+    h3 Mejores prácticas con proveedores
 
     .row.justify-content-center.align-items-start.mt-5.tarjeta--azul    
       .col-lg-9
-        p.mt-5 Para la gestión de proveedores se recomiendan diversas prácticas que son sanas y constructivas para una relación longeva y que permita la evolución de ambas empresas, al igual que la materialización de relaciones comerciales mutuamente beneficiosas.
+        p.mt-5 Para la gestión de proveedores, se recomiendan prácticas sanas y constructivas para una relación longeva y que permita la evolución de ambas empresas, al igual que la materialización de relaciones comerciales mutuamente beneficiosas.
 
       .col-lg-9.mt-4
         .tarjeta.tarjeta--blue.p-4
@@ -256,23 +233,23 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img13.svg' width='136px' height='136px', alt='Texto que describa la imagen')    
               .col-md-10
-                b 1. Condiciones contractuales claras
-                p.mt-4 Cuando existe claridad entre lo que se busca y lo que los proveedores están dispuestos a ofrecer en lo que respecta condiciones, cantidades, tiempos de entrega, garantías, descuentos, promociones, entre otros aspectos importantes. Estos elementos no se deben dejar en términos medios, ya que llevarán al desgaste de la relación comercial, y no permitirán un flujo deseado de abastecimiento de productos o servicios, con respecto a lo que las organizaciones desean y lo que los proveedores ofrecen.
+                h3 Condiciones contractuales claras
+                p.mt-4 Cuando existe claridad entre lo que se busca y lo que los proveedores están dispuestos a ofrecer, se debe dejar claro, condiciones, cantidades, tiempos de entrega, garantías, descuentos, promociones, entre otros aspectos importantes. Estos elementos no se deben dejar en términos medios, ya que llevarán al desgaste de la relación comercial, y no permitirán un flujo deseado de abastecimiento de productos o servicios.
 
             .row(titulo="")
               .col-md-2
                 figure
                   img(src='@/assets/curso/temas/tema2/img14.svg' width='134px' height='136px', alt='Texto que describa la imagen')    
               .col-md-10
-                b 2. Comunicación expedita
-                p.mt-4 Otra de las estrategias indispensables para buenas relaciones con los proveedores es la comunicación expedita, esto permite un buen puente de interacción en el cual se pueden expresar inquietudes mutuas de la manera más orgánica posible, lo que permite generar un ambiente de confianza que favorezca el vínculo comercial y la solución de posibles problemas o inconvenientes en la prestación de los servicios o comercialización de productos,  sin necesidad de recurrir a grandes protocolos que pueda generar retrasos en la provisión.
+                h3 Comunicación expedita
+                p.mt-4 Otra de las estrategias indispensables para buenas relaciones con los proveedores es la comunicación expedita, esto permite un buen puente de interacción en el cual se pueden expresar inquietudes mutuas de la manera más orgánica posible, lo que permite generar un ambiente de confianza que favorezca el vínculo comercial y la solución de posibles problemas o inconvenientes en la prestación de los servicios o comercialización de productos,  sin necesidad de recurrir a grandes protocolos que puedan generar retrasos en la transacción.
 
             .row(titulo="")
               .col-md-2
                 figure
                   img(src='@/assets/curso/temas/tema2/img15.svg' width='136px' height='120px', alt='Texto que describa la imagen')    
               .col-md-10
-                b 3. Evaluación constante
+                h3 Evaluación constante
                 p.mt-4 Otra condición indispensable es la evaluación constante de la capacidad de los proveedores para suministrar productos y servicios, conservando las condiciones contractuales indicadas de manera constante y consistente. También es importante revisar qué tan flexibles pueden ser las evaluaciones de desempeño, mediante el uso de indicadores.
 
 
@@ -281,7 +258,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img16.svg' width='134px' height='114px', alt='Texto que describa la imagen')    
               .col-md-10
-                b 4. Búsqueda constante de nuevos proveedores
+                h3 Búsqueda constante de nuevos proveedores
                 p.mt-4 Este aspecto es importante, ya que permite tener una perspectiva diferente acerca de lo que se puede ofrecer en todo tipo de aspectos con la apertura de nuevos cupos de proveedores. Nunca es bueno mantener relaciones de proveedores con una sola entidad, por eso es importante clasificarlos y entregar cupos.
 
             .row(titulo="")
@@ -289,16 +266,9 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img17.svg' width='131px' height='132px', alt='Texto que describa la imagen')    
               .col-md-10
-                b 5. Política de pago justo
-                p.mt-4 Una de las estrategias para que una organización sea atractiva a diferentes proveedores es una política de pago justo. Ésta debe ser acorde al producto y servicio que éstos venden o prestan, en cuanto a la proporción de los valores pagados. Con ello se obtienen buenas relaciones contractuales.
-            
+                h3 Política de pago justo
+                p.mt-4 Una de las estrategias para que una organización sea atractiva a diferentes proveedores es una política de pago justo. Esta debe ser acorde al producto y servicio que se venden o prestan, en cuanto a la proporción de los valores pagados. Con ello se obtienen buenas relaciones contractuales.
 
-
-              
-
-    
-  
-     
 
 </template>
 

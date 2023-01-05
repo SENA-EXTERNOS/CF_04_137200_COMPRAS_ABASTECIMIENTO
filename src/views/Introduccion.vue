@@ -12,10 +12,11 @@
     
     .row.mt-4                 
       .col-lg-7
-        p.mt-2 Estimado aprendiz, reciba un cordial saludo y sea bienvenido a este componente. Los temas a abordar giran entorno a la relación de las empresas con los proveedores, ya que no existe una organización que tenga la capacidad de auto suplir todas las necesidades que puedan surgir para el desarrollo de sus actividades económicas.          
-        p.mt-2 La figura de proveedor es el que puede abastecer: materias primas, insumos, maquinas, tecnologías blandas, servicios tangibles y servicios no tangibles, por lo tanto, en este módulo encontrarás, los diferente tipos de proveedores que existen, como se clasifican y como se evalúan para ser seleccionados de acuerdo a la necesidad que surja al interior de la organización, y comprender como se realiza el seguimiento para el cumplimiento de lo acordado desde los aspectos de planificación, organización, dirección y control de los productos suministrados por los proveedores.
-        p.mt-2 La importancia que tendrá este componente para la formación del aprendiz, son los pasos para seleccionar proveedores en una empresa y la gestión que se debe hacer al interior de la organización con ellos para cumplir con los requerimientos establecidos.
-        b.mt-2 Lo invitamos a ver el vídeo de introducción que se presenta a continuación. Allí podrá conocer información acerca de lo que se trabajará durante esta etapa formativa. ¡Muchos éxitos!
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se abordará la relación de las empresas con los proveedores, debido que no existe una organización que tenga la capacidad de auto suplir todas las necesidades que puedan surgir en el desarrollo de sus actividades económicas.
+        p La figura de proveedor es la que puede abastecer: materias primas, insumos, máquinas, tecnologías blandas, servicios tangibles y servicios no tangibles, por lo tanto, encontrará los diferente tipos de proveedores que existen, cómo se clasifican y cómo se evalúan para ser seleccionados de acuerdo con la necesidad que surja al interior de la organización, y comprender como se realiza el seguimiento para el cumplimiento de lo acordado desde los aspectos de planificación, organización, dirección y control de los productos suministrados por los proveedores.
+        p La importancia que tendrá este componente para la formación del aprendiz, es entregar los pasos para seleccionar proveedores en una empresa y la gestión que se debe hacer al interior de la organización con ellos para cumplir con los requerimientos establecidos.
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
 
 
       .col-lg-5

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Selección de proveedores',
     descripcionCurso:
-      'En el presente componente se hace referencia a la selección y calificación de proveedores, se tendrán en cuenta criterios de selección, métodos de evaluación, procesos de provisión de productos, entre otros que hacen parte importante de este procedimiento, para determinar la clasificación de dichos proveedores.',
+      'En el presente componente se encontrará la selección y calificación de proveedores, se tendrá en cuenta criterios de selección, métodos de evaluación, procesos de provisión de productos, entre otros, que hacen parte importante de este procedimiento para determinar la clasificación de dichos proveedores.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -47,32 +47,6 @@ export default {
         numero: '1',
         titulo: 'Proveedores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipo de proveedores',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Clasificación de proveedores',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Verificación de requisitos ',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Informe de selección de proveedores ',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
@@ -81,38 +55,6 @@ export default {
         numero: '2',
         titulo: 'Gestión de proveedores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Negociación con proveedores',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Etapas del proceso de negociación',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Estrategias de negociación con proveedores',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Seguimiento de proveedores y pedidos',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: ' Mejores prácticas con proveedores',
-            hash: 't_2_5',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -120,20 +62,6 @@ export default {
         numero: '3',
         titulo: 'Informe',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipos',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Características',
-            hash: 't_3_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -179,17 +107,18 @@ export default {
   complementario: [
     {
       tema: 'Gestión de proveedores',
-      referencia: 'Sánchez Estrella O.  Gestión de proveedores. MF1004_3.',
-      tipo: 'Libro',
-      link:
-        'https://books.google.com.co/books?id=nBQZEAAAQBAJ&printsec=frontcover&dq=gestion+de+proveedores&hl=es&sa=X&redir_esc=y#v=onepage&q&f=false',
+      referencia:
+        'Westreicher, G. (2021) <em>Sistema de inventario.</em> Economipedia. https://economipedia.com/definiciones/sistema-de-inventarios.html',
+      tipo: 'Blog',
+      link: 'https://economipedia.com/definiciones/sistema-de-inventarios.html',
     },
     {
-      tema: 'Indicadores de calidad y evaluación de proveedores ',
-      referencia: 'Carmen Arenal Laza. Gestión de proveedores. MF1004.',
-      tipo: 'Libro',
+      tema: 'Gestión de proveedores',
+      referencia:
+        'Marco Sanjuán, F. J. (2017) <em>Métodos de valoración de inventarios.</em> Economipedia. https://economipedia.com/definiciones/metodos-valoracion-inventarios.html',
+      tipo: 'Blog',
       link:
-        'https://books.google.com.co/books?id=v01mEAAAQBAJ&pg=PA151&dq=INDICADORES+DE+DESEMPE%C3%91O+PROVEEDORES&hl=es&sa=X&ved=2ahUKEwj71Y3U6eX5AhVuZTABHQ5tCtQQ6AF6BAgHEAI#v=onepage&q=INDICADORES%20DE%20DESEMPE%C3%91O%20PROVEEDORES&f=false ',
+        'https://economipedia.com/definiciones/metodos-valoracion-inventarios.html',
     },
   ],
   glosario: [

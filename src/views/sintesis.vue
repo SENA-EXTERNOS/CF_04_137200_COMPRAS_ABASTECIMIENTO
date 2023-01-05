@@ -14,8 +14,7 @@
           img(src="@/assets/curso/temas/g4.svg" width='80,61' height='80,7')
     .row.justify-content-center
       .col-lg-10
-        p.mt-5 A continuación, podrá observar una síntesis de todos los temas vistos en este componente.
-    
+        p.mt-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
     
     .row.justify-content-center
       .col-lg-10.mb-5.mt-5
