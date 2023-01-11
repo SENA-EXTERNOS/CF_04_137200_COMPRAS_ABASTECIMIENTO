@@ -137,7 +137,7 @@
           p.mt-4.text-left Los criterios de selección son útiles para poder clasificar de manera sistemática y objetiva puntos que son de importancia a evaluar dentro de una relación comercial entre dos partes.
           p.mt-3 Dentro de éstos se pueden relacionar:
 
-          ul.mb-5.lista-ul--
+          ul.mb-5.lista-ul
             li 
               i.fas.fa-angle-right.yelllow
               | Calidad del producto.
@@ -157,7 +157,7 @@
               | Facilidad de pago.
 
           .titulo-sexto.color-negrotitulotabla
-            p.mb-0 #[b Tabla 1.] 
+            p.mb-0 #[b Tabla 1] 
             p.mb-0 
               em Criterios de evaluación
 
@@ -165,7 +165,6 @@
 
           .tabla-a 
             table.tabladimension    
-              caption Fuente: elaboración propia del experto
               thead
                 tr
                   th CRITERIO EMPRESA
@@ -206,13 +205,12 @@
     p Una herramienta usada en este proceso es la ficha de evaluación:
 
     .titulo-sexto.color-negrotitulotabla.mt-5
-            p.mb-0  #[b Tabla 2.] 
+            p.mb-0  #[b Tabla 2] 
             p.mb-0
               em Ficha de evaluación
 
     .tabla-a.mb-5 
-            table 
-              caption Fuente: elaboración propia del experto       
+            table       
               thead
                 tr
                   th Proveedor
@@ -274,13 +272,12 @@
 
     
         .titulo-sexto.color-negrotitulotabla
-                p.mb-0 #[b Tabla 3.] 
+                p.mb-0 #[b Tabla 3] 
                 p.mb-0
                   em Desarrollo evaluación
 
         .tabla-a
-          table.tabladimension1
-            caption Fuente: elaboración propia del experto     
+          table.tabladimension1    
             thead
               tr
                 th Proveedor

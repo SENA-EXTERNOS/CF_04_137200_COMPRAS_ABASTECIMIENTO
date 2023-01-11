@@ -125,32 +125,32 @@ export default {
     {
       termino: 'Cadena de suministro',
       significado:
-        'una cadena de suministro es el conjunto de actividades, instalaciones y medios de distribución necesarios para llevar a cabo el proceso de venta de un producto en su totalidad. Esto se da desde la búsqueda de materias primas, su posterior transformación, llegando hasta la fabricación, transporte y entrega al consumidor final. (Roldán, 2017)',
+        'una cadena de suministro es el conjunto de actividades, instalaciones y medios de distribución necesarios para llevar a cabo el proceso de venta de un producto en su totalidad. Esto se da desde la búsqueda de materias primas, su posterior transformación, llegando hasta la fabricación, transporte y entrega al consumidor final (Roldán, 2017).',
     },
     {
       termino: 'Canales de distribución',
       significado:
-        'los canales de distribución están definidos por las diferentes fases o etapas por las que un producto pasa, de modo que su propiedad va transitando de unas manos a otras, desde el fabricante, hasta el consumidor o usuario final. (Sánchez Galán, 2015)',
+        'los canales de distribución están definidos por las diferentes fases o etapas por las que un producto pasa, de modo que su propiedad va transitando de unas manos a otras, desde el fabricante, hasta el consumidor o usuario final (Sánchez Galán, 2015).',
     },
     {
       termino: 'EOQ (cantidad económica del pedido)',
       significado:
-        'la cantidad económica de pedido o EOQ por las siglas de su nombre en inglés <em>(Economic Order Quantity)</em> es un modelo matemático que sirve para calcular el tamaño óptimo de cada pedido de materia prima. Esto, buscando la mayor eficiencia.<em> (Westreicher, 2022)</em>',
+        'la cantidad económica de pedido o EOQ por las siglas de su nombre en inglés <em>(Economic Order Quantity)</em> es un modelo matemático que sirve para calcular el tamaño óptimo de cada pedido de materia prima. Esto, buscando la mayor eficiencia <em> (Westreicher, 2022).</em>',
     },
     {
       termino: 'Gestión de inventarios',
       significado:
-        'la gestión de inventarios es la administración respecto al ingreso y salida de insumos, productos terminados o semiterminados, bienes auxiliares y herramientas que posee una empresa. (Westreicher, 2019)',
+        'la gestión de inventarios es la administración respecto al ingreso y salida de insumos, productos terminados o semiterminados, bienes auxiliares y herramientas que posee una empresa (Westreicher, 2019).',
     },
     {
       termino: 'Inventario final',
       significado:
-        'el inventario final es aquel que se registra al terminar un ejercicio contable, previo control de entradas y salidas de existencias. (Llamas, 2020)',
+        'el inventario final es aquel que se registra al terminar un ejercicio contable, previo control de entradas y salidas de existencias (Llamas, 2020).',
     },
     {
       termino: 'Inventario inicial',
       significado:
-        'el inventario inicial es aquel que se registra al comienzo de un ejercicio contable, previo cálculo de variaciones de este al final del ejercicio anterior. (Llamas, 2020)',
+        'el inventario inicial es aquel que se registra al comienzo de un ejercicio contable, previo cálculo de variaciones de este al final del ejercicio anterior (Llamas, 2020).',
     },
     {
       termino: '<em>Just in time<em>',
@@ -160,47 +160,47 @@ export default {
     {
       termino: 'KPIs',
       significado:
-        'los KPI, abreviatura en inglés de Key Performance Indicator, son indicadores de rendimiento que utilizan las organizaciones para medir el desempeño en las áreas productivas. (Orellana Nirian, 2020)',
+        'los KPI, abreviatura en inglés de Key Performance Indicator, son indicadores de rendimiento que utilizan las organizaciones para medir el desempeño en las áreas productivas (Orellana Nirian, 2020).',
     },
     {
       termino: 'Lote',
       significado:
-        'un lote es una forma de agrupación de activos o instrumentos financieros y valores equivalente en la mayoría de los casos a cien unidades de estos. A menudo la misma permite su posibilidad de traspaso en los mercados. (Sánchez Galán, 2020)',
+        'un lote es una forma de agrupación de activos o instrumentos financieros y valores equivalente en la mayoría de los casos a cien unidades de estos. A menudo la misma permite su posibilidad de traspaso en los mercados (Sánchez Galán, 2020).',
     },
     {
       termino: 'Materia prima',
       significado:
-        'una materia prima, también conocida como bien intermedio, es todo elemento que es transformado durante un proceso de producción, hasta convertirse en un bien de consumo. (Caballero Ferreiro, 2015)',
+        'una materia prima, también conocida como bien intermedio, es todo elemento que es transformado durante un proceso de producción, hasta convertirse en un bien de consumo (Caballero Ferreiro, 2015).',
     },
     {
       termino: 'Mercancía',
       significado:
-        'una mercancía es cualquier objeto factible de ser comercializado o intercambiado en el mercado. Se caracteriza por poder satisfacer alguna necesidad del consumidor.(Westreicher, 2020)',
+        'una mercancía es cualquier objeto factible de ser comercializado o intercambiado en el mercado. Se caracteriza por poder satisfacer alguna necesidad del consumidor(Westreicher, 2020).',
     },
     {
       termino: 'Orden de compra',
       significado:
-        'una orden de compra, también llamada orden de pedido o nota de pedido, es un documento mediante el cual el comprador solicita mercancías al vendedor. (Rus Arias,2020)',
+        'una orden de compra, también llamada orden de pedido o nota de pedido, es un documento mediante el cual el comprador solicita mercancías al vendedor (Rus Arias,2020).',
     },
     {
       termino: 'Propuesta de valor',
       significado:
-        'la propuesta de valor es el factor que hace diferente y útil a una empresa frente a la competencia y es apreciado por los usuarios. (Peiró, 2018)',
+        'la propuesta de valor es el factor que hace diferente y útil a una empresa frente a la competencia y es apreciado por los usuarios (Peiró, 2018).',
     },
     {
       termino: 'Rotación de inventario',
       significado:
-        'la rotación del inventario es una práctica de marketing y la dirección estratégica que consiste en el control de los productos desde el punto logístico, por medio de las veces por periodo de tiempo que se renuevan las existencias (Sánchez Galán, 2017)',
+        'la rotación del inventario es una práctica de marketing y la dirección estratégica que consiste en el control de los productos desde el punto logístico, por medio de las veces por periodo de tiempo que se renuevan las existencias (Sánchez Galán, 2017).',
     },
     {
       termino: 'Sistema de inventario',
       significado:
-        'el sistema de inventarios es el grupo de reglas y procesos que implementa una empresa para planificar y supervisar las mercancías y los materiales de los que dispone. (Westreicher, 2021)',
+        'el sistema de inventarios es el grupo de reglas y procesos que implementa una empresa para planificar y supervisar las mercancías y los materiales de los que dispone (Westreicher, 2021).',
     },
     {
       termino: 'Suministro',
       significado:
-        'el suministro es la dotación de un bien, el cual debe pasar por todo un proceso para ir desde el productor hasta el consumidor o beneficiario final. (Westreicher, 2020)',
+        'el suministro es la dotación de un bien, el cual debe pasar por todo un proceso para ir desde el productor hasta el consumidor o beneficiario final (Westreicher, 2020).',
     },
     {
       termino: 'Trazabilidad',
@@ -210,7 +210,7 @@ export default {
     {
       termino: 'Valoración de inventario',
       significado:
-        'son técnicas aplicadas para valorar las unidades en almacén en términos monetarios. Esta valoración es especialmente útil cuando las unidades se van adquiriendo a distintos precios. (Marco Sanjuán, 2018)',
+        'son técnicas aplicadas para valorar las unidades en almacén en términos monetarios. Esta valoración es especialmente útil cuando las unidades se van adquiriendo a distintos precios (Marco Sanjuán, 2018).',
     },
   ],
   referencias: [
